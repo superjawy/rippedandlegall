@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1 {
+    text-align: center;
+}
+.albums {
+    display: flex;
+    flex-direction: column;
+    font-family: "SFPro","SFPro2",sans-serif;
+    font-weight: lighter;
+    gap: 30px;
+}
+.album {
+  display: flex;
+  flex-direction: column;
+  font-family: "SFPro","SFPro2",sans-serif;
+  font-weight: lighter;
+  gap: 10px;
+}
+.album img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.altext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  line-height: 30px
+
+}
+.title_head {
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name {
+  font-family: Didot;
+  font-weight: bolder;
+  font-size: 42pt;
+  text-transform: lowercase;
+  text-decoration: none;
+  /* font-weight: 999; */
+  color: #0A0A0A;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Равномерно распределяет элементы по контейнеру */
+  text-align: center;
+  font-family: "SFPro","SFPro2",sans-serif;
+}
+li{
+  margin: 50px;
+  text-decoration: none;
+}
+.kok {
+  font-family: "SFPro","SFPro2",sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #0A0A0A;
+}
+.footerz {
+  font-family: "SFPro","SFPro2",sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #0A0A0A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1%;
+}
